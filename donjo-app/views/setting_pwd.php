@@ -84,8 +84,6 @@
 								<hr />
 								<button type="submit" id="btnSubmit" class="btn btn-social btn-flat btn-info btn-sm"><i class='fa fa-check'></i>Simpan</button>
 							</form>
-							<hr />
-							<div class="login-footer-bottom"><a href="https://github.com/OpenSID/OpenSID" target="_blank">OpenSID</a> <?= AmbilVersi(); ?></div>
 						</div>
 					</div>
 				</div>

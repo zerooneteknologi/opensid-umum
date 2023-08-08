@@ -190,7 +190,7 @@
 								<?php endif; ?>
 							<?php endif; ?>
 							<div class="login-footer-bottom">
-								<a href="https://github.com/OpenSID/OpenSID" class="content-color-secondary" rel="noopener noreferrer" target="_blank">OpenSID <?= AmbilVersi() ?></a>
+								SID 2023
 							</div>
 						</div>
 					</div>

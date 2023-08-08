@@ -28,7 +28,7 @@
             <nav class="navbar navbar-static-top">
                 <div class="container">
                     <div class="navbar-header">
-                        <a href="{{ route('/') }}" class="navbar-brand"><b>Open</b>SID</a>
+                        <a href="{{ route('/') }}" class="navbar-brand">SID</a>
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#navbar-collapse">
                             <i class="fa fa-bars"></i>
@@ -429,10 +429,8 @@
         <footer class="main-footer">
             <div class="container">
                 <div class="pull-right hidden-xs">
-                    <b>Versi <?= config_item('nama_aplikasi') ?></b> v{{ AmbilVersi() }}
+                    <b>Versi <?= config_item('nama_aplikasi') ?></b> 2023
                 </div>
-                <strong>Hak cipta &copy; 2016-{{ date('Y') }} <a href="https://opendesa.id">OpenDesa</a>.</strong>
-                Seluruh hak cipta dilindungi.
             </div>
         </footer>
     </div>

@@ -14,11 +14,6 @@
                                                                             <strong><i class="fa fa-info-circle text-red"></i> Sebelum melakukan migrasi ini, pastikan database SID anda telah dibackup.</strong>
                                                                         </small>
                                                                     </p>
-                                                                    <p>Apabila sesudah melakukan konversi ini, masih ditemukan masalah, laporkan di :</P>
-                                                                    <ul>
-                                                                        <li> <a href="https://github.com/OpenSID/OpenSID/issues">https://github.com/OpenSID/OpenSID/issues</a></li>
-                                                                        <li> <a href="https://www.facebook.com/groups/OpenSID/">https://www.facebook.com/groups/OpenSID/</a></li>
-                                                                    </ul>
                                                                     <table class="table table-bordered" >
                                                                         <tbody>
                                                                             <tr>

@@ -578,8 +578,8 @@ $config['proxy_ips'] = '';
 | - Nama Lembaga
 |
 */
-$config['nama_aplikasi'] = 'OpenSID';
-$config['nama_lembaga']  = 'OpenDesa';
+$config['nama_aplikasi'] = 'SID';
+$config['nama_lembaga']  = 'Desa';
 
 /*
 |--------------------------------------------------------------------------

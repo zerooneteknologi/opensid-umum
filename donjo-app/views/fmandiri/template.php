@@ -290,9 +290,9 @@ endif;
 		<footer class="main-footer">
 			<div class="container">
 				<div class="pull-right hidden-xs">
-					<b>Versi</b> <?= AmbilVersi() ?>
+					2023
 				</div>
-				<strong>Aplikasi <a href="https://github.com/OpenSID/OpenSID" target="_blank"> <?= config_item('nama_aplikasi') ?></a>, dikembangkan oleh <a href="https://www.facebook.com/groups/OpenSID/" target="_blank">Komunitas <?= config_item('nama_aplikasi') ?></a>.</strong>
+				<strong>Aplikasi <?= config_item('nama_aplikasi') ?></strong>
 			</div>
 		</footer>
 	</div>

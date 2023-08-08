@@ -1,8 +1,8 @@
 				<footer class="main-footer">
 					<div class="pull-right hidden-xs">
-						<b>Versi</b> <?= AmbilVersi() ?>
+						<b>Versi</b> 2023
 					</div>
-					<strong>Aplikasi <a href="https://github.com/OpenSID/OpenSID" target="_blank"><?= config_item('nama_aplikasi') ?></a>, dikembangkan oleh <a href="https://www.facebook.com/groups/OpenSID/" target="_blank">Komunitas <?= config_item('nama_aplikasi') ?></a>.</strong>
+					<strong>Aplikasi <?= config_item('nama_aplikasi') ?></strong>
 				</footer>
 				<?php include RESOURCESPATH . 'views/admin/layouts/partials/control_sidebar.blade.php'; ?>
 				</div>
