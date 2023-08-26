@@ -52,6 +52,9 @@ $route['artikel/(:num)/(:num)/(:num)/(:any)'] = 'first/artikel/$1/$2/$3/$4'; // 
 $route['first/artikel/(:num)']                      = 'first/artikel/$1'; // Contoh : Contoh : first/artikel/1
 $route['first/artikel/(:num)/(:num)/(:num)/(:any)'] = 'first/artikel/$4'; // Contoh : first/artikel/2020/5/15/contoh-artikel
 
+// display
+$route['display']                  = 'display/dis';
+
 // Route bumindes
 $route['bumindes_umum/([a-z_]+)/(:any)'] = 'buku_umum/bumindes_umum/$1/$2';
 $route['bumindes_umum/([a-z_]+)']        = 'buku_umum/bumindes_umum/$1';

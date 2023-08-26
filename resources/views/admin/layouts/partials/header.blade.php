@@ -1,7 +1,7 @@
 <header class="main-header">
   <a href="{{ route('/') }}" target="_blank" class="logo">
     <span class="logo-mini"><b>SID</b></span>
-    <span class="logo-lg"><b>OpenSID</b></span>
+    <span class="logo-lg"><b>{{ config_item('nama_aplikasi') }}</b></span>
   </a>
 
   <nav class="navbar navbar-static-top">
@@ -31,7 +31,7 @@
           </li>
         @endif
 
-        @if (in_array('343', array_column($modul, 'id')) && can('b', 'opendk_pesan'))
+        {{-- @if (in_array('343', array_column($modul, 'id')) && can('b', 'opendk_pesan'))
           <li class="komunikasi-opendk">
             <a href="{{ route('opendk_pesan.clear') }}">
               <i class="fa fa-university fa-lg" title="Komunikasi OpenDK"></i>&nbsp;
@@ -43,7 +43,7 @@
               @endif
             </a>
           </li>
-        @endif
+        @endif --}}
 
         @if (can('b', 'permohonan_surat_admin'))
           <li>

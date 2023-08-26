@@ -156,7 +156,7 @@
                                                 </a>
                                             </li>
                                         <?php endif ?>
-                                        <?php if (in_array('343', array_column($modul, 'id')) && can('b', 'opendk_pesan')) : ?>
+                                        <!-- <?php if (in_array('343', array_column($modul, 'id')) && can('b', 'opendk_pesan')) : ?>
                                             <li class="komunikasi-opendk">
                                                 <a href="<?= route('opendk_pesan.clear') ?>">
                                                     <i class="fa fa-university fa-lg" title="Komunikasi OpenDK"></i>&nbsp;
@@ -168,7 +168,7 @@
                                                     <?php endif ?>
                                                 </a>
                                             </li>
-                                        <?php endif ?>
+                                        <?php endif ?> -->
                                         <?php if (can('b', 'permohonan_surat_admin')) : ?>
                                             <li>
                                                 <a href="<?= site_url('permohonan_surat_admin') ?>">
