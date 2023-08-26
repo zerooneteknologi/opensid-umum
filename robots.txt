@@ -2,8 +2,7 @@ User-agent: *
 
 Disallow: /app/*
 Disallow: /desa/*
-Disallow: /donjo-app/*
-Disallow: /resources/*
 Disallow: /securimage/*
 Disallow: /storage/*
 Disallow: /vendor/*
+Disallow: /desa/config/database.php
