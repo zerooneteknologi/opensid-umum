@@ -1,4 +1,4 @@
-<div class="box box-danger">
+{{-- <div class="box box-danger">
     <div class="box-header with-border">
         <i class="icon fa fa-ban"></i>
         <h3 class="box-title">Lisensi Anjungan Tidak Terdeteksi</h3>
@@ -12,4 +12,4 @@
                 lisensi anjungan dari OpenDesa.</li>
         </div>
     </div>
-</div>
+</div> --}}
